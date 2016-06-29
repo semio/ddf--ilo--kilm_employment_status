@@ -1,0 +1,21 @@
+concept,name,concept_type
+name,Name,string
+year,Year,time
+country,Country,entity_domain
+sex,Sex,entity_domain
+wage_salaried_workers_employees_000,Wage & salaried workers (employees) ('000),measure
+wage_salaried_workers_employees,Wage & salaried workers (employees) (%),measure
+total_self_employed_workers_a_b_c_d_000,Total self-employed workers (a + b + c + d) ('000),measure
+total_self_employed_workers_a_b_c_d,Total self-employed workers (a + b + c + d) (%),measure
+employers_a_000,Employers (a) ('000),measure
+employers_a,Employers (a) (%),measure
+own_account_workers_b_000,Own-account workers (b) ('000),measure
+own_account_workers_b,Own-account workers (b) (%),measure
+members_of_producers_cooperatives_c_000,Members of producers' cooperatives (c) ('000),measure
+members_of_producers_cooperatives_c,Members of producers' cooperatives (c) (%),measure
+contributing_family_workers_d_000,Contributing family workers (d) ('000),measure
+contributing_family_workers_d,Contributing family workers (d) (%),measure
+not_classified_000,Not classified ('000),measure
+not_classified,Not classified (%),measure
+persons_in_vulnerable_employment_b_d_000,Persons in vulnerable employment (b + d) ('000),measure
+share_of_vulnerable_employment_in_total_employment_b_d,Share of vulnerable employment in total employment (b + d) (%),measure
