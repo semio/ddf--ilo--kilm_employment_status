@@ -1,0 +1,456 @@
+{
+    "name": "ddf--ilo--kilm_employment_status",
+    "language": {
+        "id": "en"
+    },
+    "resources": [
+        {
+            "path": "ddf--concepts.csv",
+            "name": "ddf--concepts",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "path": "ddf--datapoints--contributing_family_workers_percentage--by--country--sex--year.csv",
+            "name": "ddf--datapoints--contributing_family_workers_percentage--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "contributing_family_workers_percentage"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--contributing_family_workers_thousands--by--country--sex--year.csv",
+            "name": "ddf--datapoints--contributing_family_workers_thousands--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "contributing_family_workers_thousands"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--employers_percentage--by--country--sex--year.csv",
+            "name": "ddf--datapoints--employers_percentage--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "employers_percentage"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--employers_thousands--by--country--sex--year.csv",
+            "name": "ddf--datapoints--employers_thousands--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "employers_thousands"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--members_of_producers_cooperatives_percentage--by--country--sex--year.csv",
+            "name": "ddf--datapoints--members_of_producers_cooperatives_percentage--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "members_of_producers_cooperatives_percentage"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--members_of_producers_cooperatives_thousands--by--country--sex--year.csv",
+            "name": "ddf--datapoints--members_of_producers_cooperatives_thousands--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "members_of_producers_cooperatives_thousands"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--not_classified_percentage--by--country--sex--year.csv",
+            "name": "ddf--datapoints--not_classified_percentage--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "not_classified_percentage"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--not_classified_thousands--by--country--sex--year.csv",
+            "name": "ddf--datapoints--not_classified_thousands--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "not_classified_thousands"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--own_account_workers_percentage--by--country--sex--year.csv",
+            "name": "ddf--datapoints--own_account_workers_percentage--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "own_account_workers_percentage"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--own_account_workers_thousands--by--country--sex--year.csv",
+            "name": "ddf--datapoints--own_account_workers_thousands--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "own_account_workers_thousands"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--persons_in_vulnerable_employment_thousands--by--country--sex--year.csv",
+            "name": "ddf--datapoints--persons_in_vulnerable_employment_thousands--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "persons_in_vulnerable_employment_thousands"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--share_of_vulnerable_employment_in_total_employment_percentage--by--country--sex--year.csv",
+            "name": "ddf--datapoints--share_of_vulnerable_employment_in_total_employment_percentage--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "share_of_vulnerable_employment_in_total_employment_percentage"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_self_employed_workers_percentage--by--country--sex--year.csv",
+            "name": "ddf--datapoints--total_self_employed_workers_percentage--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_self_employed_workers_percentage"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_self_employed_workers_thousands--by--country--sex--year.csv",
+            "name": "ddf--datapoints--total_self_employed_workers_thousands--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_self_employed_workers_thousands"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--wage_salaried_workers_employees_percentage--by--country--sex--year.csv",
+            "name": "ddf--datapoints--wage_salaried_workers_employees_percentage--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "wage_salaried_workers_employees_percentage"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--wage_salaried_workers_employees_thousands--by--country--sex--year.csv",
+            "name": "ddf--datapoints--wage_salaried_workers_employees_thousands--by--country--sex--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "wage_salaried_workers_employees_thousands"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--entities--country.csv",
+            "name": "ddf--entities--country",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "country"
+            }
+        },
+        {
+            "path": "ddf--entities--sex.csv",
+            "name": "ddf--entities--sex",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "sex"
+            }
+        }
+    ]
+}
